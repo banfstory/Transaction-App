@@ -1,0 +1,5 @@
+---Run Qt Designer .exe---
+qt6-tools designer
+
+---Complie .ui file to .py---
+pyuic5 -x *source file name*.ui -o *new file name*.py
